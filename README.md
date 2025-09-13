@@ -1,4 +1,12 @@
 # EC2 Monitoring and Remediation System – ServiceNow Implementation
+The EC2 Remediation System is a ServiceNow-powered workflow that automatically detects, alerts, and resolves failing AWS EC2 instances affecting Netflix’s streaming infrastructure. Its purpose is to minimize incident response time while seamlessly integrating with DevOps processes through Slack and AI Search.
+
+The solution eliminates delays in identifying EC2 instance failures by automating the following:
+- Incident creation for failed instances
+- AI-driven knowledge retrieval
+- Slack notifications with actionable remediation steps
+- One-click manual remediation through a streamlined UI Action
+- Detailed logging for auditing and post-incident review
 
 ## Architecture Diagram
 ![](https://github.com/CodeWithLuwam/EC2-remediation-system/blob/main/Diagram.png?raw=true)
